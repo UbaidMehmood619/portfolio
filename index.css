@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
+
+/*General style */
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  list-style-type: none;
+
+  text-transform: uppercase;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 55px 45px 0px 55px ;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+span {
+  color: #ffad5a;
+}
+
+.btn {
+  padding: 10px 40px;
+  width: 60%;
+  background-image: linear-gradient(to right, #ff5959, #ffad5a);
+  text-decoration: none;
+  color: white;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #fff;
+  color: #ff5959;
+  font-weight: bold;
+}
+ .header-section {
+  display: flex;
+  background-color: wheat;
+  border: 2px solid transparent;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 90%;
+  height: calc(80vh);
+  margin: 0px;
+  padding: 0%;
+  
+} 
+.scroll-para {
+  margin-top: 25px;
+}
+
+.header-right {
+  display: flex;
+  border:2px solid transparent;
+  align-items: center;
+  width: 40%;
+  height: calc(80vh);
+  justify-content: center;
+  /* padding-left: 8rem; */
+}
+.circle-outside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(251, 222, 227), rgb(216, 216, 238));
+}
+.circle-inside {
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-image: url(images/dummy-woman.png);
+  background-size: 100%;
+  background-color: whitesmoke;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 9px 10px rgb(219, 217, 217) inset;
+}
+
+/* styles for navigation ends here */
+
+/*--------------Hire me Section start now---------------*/
+.header-text-section {
+  border: 2px solid transparent;
+  width: 60%;
+  height: calc(80vh);
+  padding: 3rem;
+  margin: 0%;
+}
+
+.heading {
+  padding-bottom: 25px;
+  /* padding-top: 105px; */
+}
+
+.heading h1 {
+  padding:10px 25px 25px 0px;
+  margin-top: 25px;
+  border-left: 4px solid;
+  border-image: linear-gradient(#ff5959, #ffad5a) 12;
+  /* line-height: 1.25; */
+  border-image-outset: 10px;
+  border-image-repeat: space;
+  color: #ff5959;
+}
+
+.header-text-section p {
+  color: rgb(34, 34, 34);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+
+
+ @media screen and (max-width:450px) {
+  .header-section{
+    /* border: 2px solid coral; */
+    height: calc(100vh);
+    display: inline-block;
+    flex-direction: row-reverse; 
+    padding: 0%;
+    margin: 0%;
+    margin-left: 25px;
+    padding-top: 20px;
+  
+  }
+  .header-text-section {
+    margin: 0%;
+     /* border: 2px solid red; */
+    /* margin-left: 50px;  */
+    padding: 30px 20px 0px 50px;
+    width: 100%;
+    margin-top: 30px;
+    
+
+  } 
+  .header-text-section h1{
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+
+  }
+  .header-text-section p{
+    margin-top: 5px; 
+    font-size: 8px;
+    
+
+  }
+  .header-right {
+   /* border: 2px solid green; */
+    margin: 0%;
+    margin-top: 10px;
+    padding: 0%;
+    padding-left: 10px;
+    padding-top: 25px;
+    width: 60%;
+    height: 15%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .circle-outside {
+    width: 8rem;
+    height: 8rem;
+  }
+  .circle-inside {
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 70%;
+  }
+  
+  .btn {
+    /* border: 2px solid #ff5959; */
+    /* margin: 5px;  */
+    width: 70%;
+    height: 11%;
+    font-size: 10px;
+  
+  }
+  .scroll-para{
+   /* border: 2px solid #ff5959;  */
+    margin: 0%;
+    margin-top: 5px;
+  }
+}  
+  
